@@ -1,0 +1,78 @@
+.container{
+    color: #3c415e;
+}
+
+.container .bg{
+    width: 100%;
+}
+
+.container .headshot{
+    height: 200px;
+    width: auto;
+    position: relative;
+    left: 0;
+    top: -100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: .5s;
+
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+.bg{
+    background: url('../assets/bg.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.banner{
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    background: #2bc1c1;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.banner .title{
+    height: 11rem;
+}
+
+.container .row:nth-child(2) .col:nth-child(1){
+    padding-left: 2rem;
+}
+
+.container .row:nth-child(2) .row:nth-child(1){
+    font-size: 3rem;
+}
+
+.container .row:nth-child(2) .row:nth-child(2){
+    font-size: 1.5rem;
+}
+
+.pronoun{
+    font-size: 1rem;
+    color: grey;
+}
+
+.info-1, .info-2{
+    font-size: 20px;
+    background: #2bc1c1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.info-2 span{
+    margin: 1rem 0;
+}
+
+.social img{
+    width: 2rem;
+    transition: .5s;
+
+    &:hover{
+        transform: scale(1.2);
+    }
+}
